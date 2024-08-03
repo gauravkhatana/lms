@@ -1,0 +1,38 @@
+.header {
+    font-family: Open Sans;
+    color: white;
+    background-color: #2A295C;
+    height: 56px;
+    padding: 9px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .divider {
+        height: 21px;
+        border-right: 1px solid white;
+        margin: 10px;
+    }
+
+    .service {
+        color: #FFF;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+
+    .form-group{
+        background-color: white;
+        width: 552px;
+        margin-left: 90px;
+        border-radius: 8px;
+
+        .form-control{
+            border: none;
+        }
+
+        .form-control:focus{
+            box-shadow: none;
+        }
+    }
+}
